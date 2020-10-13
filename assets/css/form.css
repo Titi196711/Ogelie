@@ -1,0 +1,87 @@
+/*<<<<<<< Upstream, based on origin/master*/
+:root{
+    --ogelie_turquoise: #10A05B;
+    --aleris_grisclair: #B3B1B2;
+    --aleris_grisfonce: #7B797A;
+    --primary: #10A05B;
+    --secondary: #B3B1B2;
+}
+
+.nav-menu {
+    width: 70%;
+    margin-top: 5.1%;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.nav-menu a{
+    font-size: 18px;
+    font-family: Arial, "Open Sans", sans-serif;
+    float: left;
+}
+
+.btn-success{
+    background-image: linear-gradient(to bottom,#7b797a 0,#7b7970 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #7b797a;
+}
+.section-title h2{
+    color: #b3b1b2;
+}
+.section-title h3{
+    color: #b3b1b2;
+}
+#footer .footer-top {
+    background: #b3b1b2;
+    border-top: 1px solid #b3b1b2;
+    border-bottom: 1px solid #b3b1b2;
+}
+#footer{
+    background: #7b797a;
+}
+#footer .copyright {
+    background: #7b797a;
+    border-top: 1px solid #7b797a;
+    border-bottom: 1px solid #7b797a;
+}
+#footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #7b797a;
+}
+.team .member .member-info {
+    position: absolute;
+    bottom: -48px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(360deg, #b3b1b2, rgba(97, 97, 97, 0.9) 35%, rgba(179, 177, 178, 0.8) 100%);
+    padding: 15px 0;
+    border-radius: 4px;
+}
+#mapaleris{
+    width: 90%;
+    height: 90%;
+}
+#footer .footer-top .footer-links ul i {
+    color: #10A05B;
+}
+.contact .info-box i {
+    font-size: 32px;
+    color: #10A05B;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #10A05B;
+}
+.icofont-look{
+    color: #FFF;
+}
+.footer-links{
+    color: #10A05B;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

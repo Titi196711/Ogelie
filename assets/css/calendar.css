@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+.jour{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 2%;
+    border: 1px solid black;
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#calendrier{
+    width: 64%;
+    padding-top: 2%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+#gauche {
+    position: relative;
+    left: -20%;
+}
+#droite{
+    position: relative;
+    right: -20%;
+}
+
+#j1,#j2,#j3,#j4,#j5,#j6,#j7,#j8,#j9,#j10,#j11,#j12,#j13,#j14,#j15,#j16,#j17,#j18,#j19,#j20,#j21,#j22,#j23,#j24,#j25,#j26,#j27,#j28,#j29,#j30,#j31{
+    width: 100%;
+}
+button{
+    border-radius: 10px;
+    background-color: #10A05B;
+}
+.dtp-header, .dtp-time, .dtp-actual-time, .dtp-actual-maxtime {
+    background-color: #10A05B !important;
+    /*color: rgb(6, 227, 204) !important;*/    
+}
+@media (max-width: 992px){
+    .jour{
+        padding: 0;
+        font-size: 1em;
+        margin-top: 1%;
+    }
+    #calendrier{
+        width: 98%;
+        margin: 1% 1%;
+    }
+    #droite{
+        right: -1%;
+    }
+    #gauche{
+        left: -1%;
+    }
+    button{
+        margin: 1px;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
